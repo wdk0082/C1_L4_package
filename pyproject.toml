@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helloworld"
+version = "0.1.0"
+description = "A simple hello world package"
+requires-python = ">=3.8"
+authors = [
+  { name="wdk0082" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
